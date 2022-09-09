@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+    background-image: url('./images/bg-pattern-bottom-desktop.svg'), url('./images/bg-pattern-top-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: 90% -30%, 0% 0%;
+    position:absolute;
+    z-index:-1;
+}
+
+.header {
+    width:400px;
+    word-wrap: break-word;
+    font-size: 50px;
+    font-family: Poppins;
+    line-height: 43px;
+    color: #502050;
+    font-weight: bold;
+    position: absolute;
+    left: 180px;
+    top: 120px;
+}
+
+.detail_header {
+    width: 490px;
+    font-family: Poppins;
+    word-wrap: break-word;
+    position: absolute;
+    left: 180px;
+    top: 260px;
+    color: #502050;
+    font-weight: lighter;
+}
+
+.boxed1 {
+    width: 490px;
+    height: 70px;
+    font-family: Poppins;
+    background-color: #f7f2f7;
+    text-align: 60%;
+    border-radius: 10px;
+    position: relative;
+    left: 820px;
+    top: 140px;
+}
+
+.text1 {
+    width: 500px;
+    font-family: Poppins;
+    color: #502050;
+    font-weight: bold;
+    font-size: 16px;
+    position: absolute;
+    left: 1000px;
+    top: 160px;
+}
+
+.boxed2 {
+    width: 490px;
+    height: 70px;
+    font-family: Poppins;
+    background-color: #f7f2f7;
+    text-align: 60%;
+    border-radius: 10px;
+    position: relative;
+    left: 850px;
+    top: 170px;
+}
+
+.text2 {
+    width: 500px;
+    font-family: Poppins;
+    color: #502050;
+    font-weight: bold;
+    font-size: 16px;
+    position: absolute;
+    left: 1050px;
+    top: 260px;
+}
+
+.boxed3 {
+    width: 490px;
+    height: 70px;
+    font-family: Poppins;
+    background-color: #f7f2f7;
+    text-align: 60%;
+    border-radius: 10px;
+    position: relative;
+    left: 880px;
+    top: 200px;
+}
+
+.text3 {
+    width: 500px;
+    font-family: Poppins;
+    color: #502050;
+    font-weight: bold;
+    font-size: 16px;
+    position: absolute;
+    left: 1100px;
+    top: 360px;
+}
+
+.img {
+    position: absolute;
+    left: 960px;
+    top: 165px;
+}
+
+.img2 {
+    position: absolute;
+    left: 935px;
+    top: 165px;
+}
+
+.img3 {
+    position: absolute;
+    left: 910px;
+    top: 165px;
+}
+
+.img4 {
+    position: absolute;
+    left: 885px;
+    top: 165px;
+}
+
+.img5 {
+    position: absolute;
+    left: 860px;
+    top: 165px;
+}
+
+.img6 {
+    position: absolute;
+    left: 1010px;
+    top: 265px;
+}
+
+.img7 {
+    position: absolute;
+    left: 985px;
+    top: 265px;
+}
+
+.img8 {
+    position: absolute;
+    left: 960px;
+    top: 265px;
+}
+
+.img9 {
+    position: absolute;
+    left: 935px;
+    top: 265px;
+}
+
+.img10 {
+    position: absolute;
+    left: 910px;
+    top: 265px;
+}
+
+.img11 {
+    position: absolute;
+    left: 1060px;
+    top: 364px;
+}
+
+.img12 {
+    position: absolute;
+    left: 1035px;
+    top: 364px;
+}
+
+.img13 {
+    position: absolute;
+    left: 1010px;
+    top: 364px;
+}
+
+.img14 {
+    position: absolute;
+    left: 985px;
+    top: 364px;
+}
+
+.img15 {
+    position: absolute;
+    left: 960px;
+    top: 364px;
+}
+
+.BigBox {
+    width: 350px;
+    height: 230px;
+    font-family: Poppins;
+    background-color: #502050;
+    border-radius: 10px;
+    position: relative;
+    left: 180px;
+    top: 230px;
+}
+
+.BigBox2 {
+    width: 350px;
+    height: 230px;
+    font-family: Poppins;
+    background-color: #502050;
+    border-radius: 10px;
+    position: relative;
+    left: 575px;
+    top: 40px;
+}
+
+.BigBox3 {
+    width: 350px;
+    height: 230px;
+    font-family: Poppins;
+    background-color: #502050;
+    border-radius: 10px;
+    position: relative;
+    left: 980px;
+    top: -140px;
+}
+
+
+
+.BigBoxTextName {
+    width: 500px;
+    font-family: Poppins;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    position: absolute;
+    left: 260px;
+    top: 480px;
+}
+
+.BigBoxTextImage {
+    background-image: url('./images/image-colton.jpg');
+    background-size: cover;
+    background-position: center ;
+    height: 3vw;
+    width: 3vw;
+    border-radius: 50%;
+    position: absolute;
+    left: 200px;
+    top: 480px;
+}
+
+.BigBoxTextStatus {
+    width: 500px;
+    font-family: Poppins;
+    color: #ee68a4;
+    font-weight: lighter;
+    font-size: 17px;
+    position: absolute;
+    left: 260px;
+    top: 500px;
+}
+
+.BigBoxTextDescription {
+    width: 300px;
+    font-family: Poppins;
+    color: #ffffff;
+    font-size: 14.4px;
+    position: absolute;
+    left: 200px;
+    top: 550px;
+}
+
+
+
+.BigBoxTextName2 {
+    width: 500px;
+    font-family: Poppins;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    position: absolute;
+    left: 660px;
+    top: 520px;
+}
+
+.BigBoxTextImage2 {
+    background-image: url('./images/image-irene.jpg');
+    background-size: cover;
+    background-position: center ;
+    height: 3vw;
+    width: 3vw;
+    border-radius: 50%;
+    position: absolute;
+    left: 600px;
+    top: 520px;
+}
+
+.BigBoxTextStatus2 {
+    width: 500px;
+    font-family: Poppins;
+    color: #ee68a4;
+    font-weight: lighter;
+    font-size: 17px;
+    position: absolute;
+    left: 660px;
+    top: 540px;
+}
+
+.BigBoxTextDescription2 {
+    width: 300px;
+    font-family: Poppins;
+    color: #ffffff;
+    font-size: 14.4px;
+    position: absolute;
+    left: 600px;
+    top: 590px;
+}
+
+
+
+
+.BigBoxTextName3 {
+    width: 500px;
+    font-family: Poppins;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    position: absolute;
+    left: 1060px;
+    top: 570px;
+}
+
+.BigBoxTextImage3 {
+    background-image: url('./images/image-anne.jpg');
+    background-size: cover;
+    background-position: center ;
+    height: 3vw;
+    width: 3vw;
+    border-radius: 50%;
+    position: absolute;
+    left: 1000px;
+    top: 570px;
+}
+
+.BigBoxTextStatus3 {
+    width: 500px;
+    font-family: Poppins;
+    color: #ee68a4;
+    font-weight: lighter;
+    font-size: 17px;
+    position: absolute;
+    left: 1060px;
+    top: 590px;
+}
+
+.BigBoxTextDescription3 {
+    width: 300px;
+    font-family: Poppins;
+    color: #ffffff;
+    font-size: 14.4px;
+    position: absolute;
+    left: 1000px;
+    top: 640px;
+}
